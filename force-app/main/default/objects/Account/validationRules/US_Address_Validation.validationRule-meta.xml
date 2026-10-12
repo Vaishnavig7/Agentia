@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Address_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>And(
+OR(ShippingCountry = &quot;US&quot;,
+ShippingCountry = &quot;USA&quot;,
+ShippingCountry = &quot;United States&quot;,
+ShippingCountry = &quot;&quot;),
+(LEN(ShippingState) != 2))</errorConditionFormula>
+    <errorMessage>You cannot save a new account unless  billing and  shipping state fields are valid.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>This_email_is_related_to_the_well_beign_of_the_patient</fullName>
+        <description>This email is related to the well-beign of the patient</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>gupta.vaishnavi1197@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mohitgupta_testuser_20241212@example.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>RB_Robotics_Templates/For_Patient_Email_Alerts</template>
+    </alerts>
+</Workflow>

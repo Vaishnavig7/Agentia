@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Visited__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Requied if Date of Appointment TODAY</description>
+    <label>Patient Visited</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

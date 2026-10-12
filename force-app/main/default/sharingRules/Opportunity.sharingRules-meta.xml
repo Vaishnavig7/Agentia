@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Rule_1</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Rule 1</label>
+        <sharedTo>
+            <group>Project_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Existing Customer - Upgrade</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Won_Opportunities_with_Account_Receivable</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Won Opportunities with Account Receivable</label>
+        <sharedTo>
+            <role>Accounts_Receivable</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Rule_2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Rule 2</label>
+        <sharedTo>
+            <role>Inside_Sales</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Sales_Executive</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Edge_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Edge Opportunities</label>
+        <sharedTo>
+            <portalRole>ExpressLogisticsandTransportPartnerManager</portalRole>
+        </sharedTo>
+        <sharedFrom>
+            <portalRoleAndSubordinates>EdgeCommunicationsPartnerManager</portalRoleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

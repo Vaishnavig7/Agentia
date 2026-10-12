@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Workspace</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Positions__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Offer__c</tabs>
+    <tabs>Propertys__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Candidates__c</tabs>
+    <tabs>Robot_Setup__c</tabs>
+    <tabs>Patient__c</tabs>
+    <tabs>Month__c</tabs>
+    <tabs>Event_Registration__c</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Discovery__c</tabs>
+    <tabs>Project1__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Department1__c</tabs>
+    <tabs>Employee1__c</tabs>
+    <tabs>Trainee__c</tabs>
+    <tabs>New_Feature__c</tabs>
+    <tabs>Suggestion__c</tabs>
+</CustomApplication>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Positions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Positionss</value>
+    </caseValues>
+    <layouts>
+        <layout>Non-Technical Positions Layout</layout>
+        <sections>
+            <label><!-- Compensation Details --></label>
+            <section>Compensation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Position Layout</layout>
+        <sections>
+            <label><!-- Compensation Details --></label>
+            <section>Compensation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Speciality --></label>
+            <section>Technical Speciality</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technical Positions Layout</layout>
+        <sections>
+            <label><!-- Compensation Details --></label>
+            <section>Compensation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Speciality --></label>
+            <section>Technical Speciality</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Non Technical Position Record Type --></label>
+        <name>Non_Technical_Position_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Technical Position Record Type --></label>
+        <name>Technical_Position_Record_Type</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Minimum salary cannot be greater than Maximum Salary --></errorMessage>
+        <name>Validation_Rules_On_Salary</name>
+    </validationRules>
+</CustomObjectTranslation>

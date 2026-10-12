@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>New_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Energy Audit --></label>
+        <name>New_Energy_Audit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For customers and prospects --></description>
+        <label><!-- Customer Account --></label>
+        <name>Customer_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For consulting partners --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the Account name for &quot;Customer -Direct&quot; or &quot;Customer Channel&quot; --></errorMessage>
+        <name>Name_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan. --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot save a new account unless  billing and  shipping state fields are valid. --></errorMessage>
+        <name>US_Address_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Account --></label>
+        <name>Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Location --></label>
+        <name>Map_Location</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- US_Average_Energy_Costs --></label>
+        <name>US_Average_Energy_Costs</name>
+    </webLinks>
+</CustomObjectTranslation>

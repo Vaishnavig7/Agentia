@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Condition of  Discharge --></label>
+    <name>Condition_of_Discharge__c</name>
+    <picklistValues>
+        <masterLabel>Death</masterLabel>
+        <translation><!-- Death --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Improved Further O.P.</masterLabel>
+        <translation><!-- Improved Further O.P. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAMA</masterLabel>
+        <translation><!-- LAMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recovered</masterLabel>
+        <translation><!-- Recovered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Treatment Required</masterLabel>
+        <translation><!-- Treatment Required --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

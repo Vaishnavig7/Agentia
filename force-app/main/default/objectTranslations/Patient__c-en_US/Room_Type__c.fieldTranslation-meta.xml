@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Room Type --></label>
+    <name>Room_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cubicles</masterLabel>
+        <translation><!-- Cubicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deluxe Room</masterLabel>
+        <translation><!-- Deluxe Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deluxe Room (V Floor)</masterLabel>
+        <translation><!-- Deluxe Room (V Floor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intensive Care Unit</masterLabel>
+        <translation><!-- Intensive Care Unit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semi Deluxe Room</masterLabel>
+        <translation><!-- Semi Deluxe Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semi Deluxe Room (V Floor)</masterLabel>
+        <translation><!-- Semi Deluxe Room (V Floor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single A/C Room</masterLabel>
+        <translation><!-- Single A/C Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single A/C Room (V Floor)</masterLabel>
+        <translation><!-- Single A/C Room (V Floor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Room</masterLabel>
+        <translation><!-- Single Room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Room(Small)</masterLabel>
+        <translation><!-- Single Room(Small) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

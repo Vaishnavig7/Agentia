@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Position_Sharing_Rules</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Position_Sharing_Rules</label>
+        <sharedTo>
+            <role>VPMarketing</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Department__c</field>
+            <operation>equals</operation>
+            <value>IT</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

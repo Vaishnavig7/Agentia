@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="New Account" icon-name="standard:account">
+        <lightning-record-edit-form object-api-name="Account" onsuccess={createAccount}>
+            <lightning-input-field field-name="Name"></lightning-input-field>
+         <lightning-input-field field-name="Industry"></lightning-input-field>
+         <lightning-button variant="brand" type="submit" name="save" label="Create New Account"></lightning-button>
+        </lightning-record-edit-form>
+    </lightning-card>
+    <lightning-card title="Account Detail" icon-name="standard:account">
+        <lightning-record-view-form object-api-name="Account" record-id={recordId}>
+         <lightning-output-field field-name="Name"></lightning-output-field>
+         <lightning-output-field field-name="Industry"></lightning-output-field>
+        </lightning-record-view-form>
+    </lightning-card>
+</template>

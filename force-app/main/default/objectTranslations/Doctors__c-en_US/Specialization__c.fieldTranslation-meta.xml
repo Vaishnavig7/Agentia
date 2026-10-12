@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Specialization --></label>
+    <name>Specialization__c</name>
+    <picklistValues>
+        <masterLabel>DNB</masterLabel>
+        <translation><!-- DNB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.S</masterLabel>
+        <translation><!-- M.S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.S,ENT</masterLabel>
+        <translation><!-- M.S,ENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MCH</masterLabel>
+        <translation><!-- MCH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MD,DD</masterLabel>
+        <translation><!-- MD,DD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

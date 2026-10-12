@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Religion --></label>
+    <name>Religion__c</name>
+    <picklistValues>
+        <masterLabel>Buddhism</masterLabel>
+        <translation><!-- Buddhism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christianity</masterLabel>
+        <translation><!-- Christianity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hinduism</masterLabel>
+        <translation><!-- Hinduism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Islam</masterLabel>
+        <translation><!-- Islam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jainism</masterLabel>
+        <translation><!-- Jainism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sikhism</masterLabel>
+        <translation><!-- Sikhism --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

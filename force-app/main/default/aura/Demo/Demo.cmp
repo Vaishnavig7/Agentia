@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	
+    <p>Hi this is my first demo for Aura</p>
+    <p>Trailhead is fun</p>
+    <p>Trailhead is superb</p>
+
+     
+</aura:component>

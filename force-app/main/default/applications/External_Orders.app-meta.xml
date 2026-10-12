@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Quickstart</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>External Orders</label>
+    <tabs>Quickstart</tabs>
+    <tabs>Waypoint__c</tabs>
+    <tabs>Discovery__c</tabs>
+    <tabs>Project1__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Department1__c</tabs>
+    <tabs>Employee1__c</tabs>
+    <tabs>Trainee__c</tabs>
+    <tabs>New_Feature__c</tabs>
+    <tabs>Suggestion__c</tabs>
+</CustomApplication>

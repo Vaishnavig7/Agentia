@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="empcountry" type="String" default="INDIA"/>
+    <aura:attribute name="empcountry1" type="String" default="BHARAT"/> 
+    <aura:attribute name="empcountry2" type="String" default="America"/>
+    
+    <lightning:input type="text" label="Employee Name" value="{!v.empcountry}"/>
+    <lightning:input type="text" label="Country Name" value="{!v.empcountry1}"/>
+    
+
+    {!v.empcountry}<br/>
+    {!v.empcountry1}<br/>
+	{!v.empcountry2}<br/>
+    
+</aura:component>

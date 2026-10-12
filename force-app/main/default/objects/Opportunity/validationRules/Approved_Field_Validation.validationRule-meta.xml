@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Approved__c),
+OR(
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+$Profile.Name &lt;&gt; &apos;Custom: Sales Profile&apos;
+)
+)</errorConditionFormula>
+    <errorMessage>Validation Error</errorMessage>
+</ValidationRule>
